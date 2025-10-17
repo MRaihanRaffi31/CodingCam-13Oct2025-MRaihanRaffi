@@ -3,26 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Keyyz To-Do List</title>
+
     <!-- css eksternal -->
     <link rel="stylesheet" href="css/styles.css">
-</head>
+    <!-- css tailwind -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+
+
+  </head></head>
 
 <body>
     <!-- js eksternal -->
     <script src="js/script.js"></script>
 
-
-
     <!-- header section -->   
     <header></header>
-
-    
+   
     <!-- main section -->
-    <main></main>
+    <main>
+        <h1>Welcome to Keyyz To-Do List</h1>
+        <section class="todo-list">
+            <input type="text" class="border py-2" id="todo-input" placeholder="Add a new task...">
+            <input type="date" class="border py-2" id="todo-date">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded" id="add-button">Add</button>
+            
+            <ul id="todo-items"></ul>
+        </section>
 
+        <section>
+            <button class="bg-blue-400 hover:bg-blue-700 text-white font-bold py-2 px-3 rounded" id="filter-button">Filter Tasks</button>
+            <button class="bg-red-400 hover:bg-red-700 text-white font-bold py-2 px-3 rounded" id="delete-button">Delete Completed</button>
+        
+        </section>
+    <button></button>
+        
+        <section class="flex justify-between my-4"
+            <h2 class="text-2xl font-bold ">Task List</h2>
+            <ul id="task-list">
+                <li>No tasks added yet.</li>
+            </ul>
+        </section>
+    </main>
 
     <!-- footer section -->
-    <footer></footer>
+    <footer>
+        <p>Created by MRaihan Raffi</p>
+    </footer>
+
+
 </body>
 </html>

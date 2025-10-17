@@ -15,7 +15,6 @@ function addTask() {
         renderTasks();
     }
 }
-
 function renderTasks() {
     const taskList = document.getElementById('task-list');
     taskList.innerHTML = 'No task added yet';
@@ -32,7 +31,7 @@ function deleteTask(index) {
 }
 
 function filterTasks() {
-    // Belum diimplementasikan
+    // Belum diimplementasikan          
 }
 
 function validateInput(task, date) {
